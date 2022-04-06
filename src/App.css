@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  position: relative;
+  transition: all 0.3s linear;
+  scroll-behavior: smooth;
+}
+

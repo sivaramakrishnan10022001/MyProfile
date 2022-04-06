@@ -1,0 +1,118 @@
+
+.contact_wapper{
+    width: 100%;
+    height: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1.4rem;
+    background-color: #fff;  
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.contact_wapper > .contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.5rem;
+    color: gray;
+}
+
+.contact_wapper > .contact_container > .contact_left{
+    display: flex;
+    font-size: 1.3rem;
+    flex-direction: column;
+}
+
+.contact_wapper > .contact_container > .contact_left >.email{
+    display: flex;
+    align-items: center;
+    color: rgb(49, 48, 48);
+    font-size: 1.3rem; 
+    font-weight: 500;
+    margin-right: 0.4rem;
+    user-select: none;
+}
+
+.contact_wapper > .contact_container > .contact_left > .email > a{
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.contact_wapper > .contact_container > .contact_left >.phone{
+    display: flex;
+    align-items: center;
+}
+
+.contact_wapper > .contact_container > .contact_left > .phone > p{
+    font-size: 1.3rem; 
+    font-weight: 500;
+    margin-right: 0.4rem;
+    user-select: none;
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+
+.contact_wapper > .contact_container > .contact_left > .phone > h5{
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+
+/*------------- contact_right -----------------*/
+
+.contact_wapper > .contact_container > .contact_right {
+    display: flex;
+    font-size: 1.3rem;
+}
+.contact_wapper > .contact_container > .contact_right  > a{
+    display: flex;
+    align-items: center;
+    letter-spacing: 0;
+    color: rgb(49, 48, 48);
+    font-weight: 500;
+}
+
+.contact_wapper > .contact_container > .contact_right  > a:first-child{
+    margin-right: 1.5rem;
+}
+
+.contact_wapper > .contact_container > .contact_right  > a > .svg_facebook{
+    fill: #1285c7;
+    border-radius: 15px;
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+.contact_wapper > .contact_container > .contact_right  > a > .svg_instagram{
+    fill: #e91f11;
+    border-radius: 15px;
+    height: 1.8rem;
+    width: 1.8rem;
+    margin-right: 0.5rem;
+}
+
+
+/* 425 */
+
+@media (max-width: 425px) {
+    .contact_wapper > .contact_container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 5rem;
+        padding: 0 0.5rem;
+        color: gray;
+    }
+}
+
+
