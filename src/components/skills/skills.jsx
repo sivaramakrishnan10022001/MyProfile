@@ -12,11 +12,11 @@ class Skills extends React.Component {
     render() {
         return (
             <div className="work_content">
-                <div className="work_img">
+                <div id="work" className="work_img">
                     <img src={work} alt="work" />
                 </div>
 
-                <div className="skills_container">
+                <div id="skills" className="skills_container">
                     <div className="skill-bars">
 
                         <div className="bar">

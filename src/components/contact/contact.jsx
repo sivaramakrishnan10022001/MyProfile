@@ -3,7 +3,7 @@ import "./contact.css";
 class Contact extends React.Component {
     render() {
         return (
-            <div className="contact_wapper">
+            <div id="contact" className="contact_wapper">
                 
                 <div className="contact_container">
 

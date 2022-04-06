@@ -6,7 +6,7 @@ import siva from "../download/siva.jpg";
 class Header extends React.Component {
     render() {
         return (
-            <div className="header_wapp">
+            <div id="home" className="header_wapp">
                 <div className="header_left">
                     <div className="header_left_content">
                         <h1>Hi,</h1>
