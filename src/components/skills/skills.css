@@ -4,7 +4,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: chartreuse;
     text-align: start;
 }
 
@@ -36,7 +35,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: crimson;
 }
 
 .work_content>.skills_container>.skill-bars {
