@@ -12,12 +12,9 @@ class Shopping extends React.Component {
     render() {
         return (
             <div className="shopping_wapper">
-                <h1>Coming Soon</h1>
+                <h1>Shopping Coming Soon</h1>
                 <CountdownTimer className="sample" interval="10:3:0:10" />
             </div>
-
-            
-
         )
     }
 }
