@@ -11,7 +11,7 @@ class Navbar extends React.Component {
    }
    render() {
       return (
-         <div className="Navbar_wapp">
+         <div id="home" className="Navbar_wapp">
             <div className="logo">
                <h2>
                   <a href="#home">Sivaramakrishnan</a>
