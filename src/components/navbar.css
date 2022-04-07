@@ -95,8 +95,8 @@ a {
 }
 
 .Navbar_wapp>nav>ul>li>a>.svgshopping{
-  height: 30px;
-  width: 30px;
+  height: 32px;
+  width: 32px;
 }
 
 .Navbar_wapp>nav>ul>li>a>.svgcontact {
@@ -142,9 +142,16 @@ a {
     transition: all 0.3s linear;
   }
 
-  .Navbar_wapp>.menu>i {
+  /* .Navbar_wapp>.menu>i {
     color: #ffffff;
-    font-size: 1.7rem;
+    font-size: 0rem;
+  } */
+
+  .Navbar_wapp > .menu > .svgMenu{
+    fill: #ffffff;
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
   }
 
   .Navbar_wapp>nav {
@@ -262,9 +269,16 @@ a {
     transition: all 0.3s linear;
   }
 
-  .Navbar_wapp>.menu>i {
+  /* .Navbar_wapp>.menu>i {
     color: #ffffff;
     font-size: 1.4rem;
+    
+  } */
+  .Navbar_wapp > .menu >.svgMenu{
+    height: 1.4rem;
+    width: 1.4rem;
+    fill: #ffffff;
+    cursor: pointer;
   }
 
   .Navbar_wapp>nav {
@@ -273,7 +287,7 @@ a {
     width: 11rem;
     height: 27rem;
     left: 0;
-    padding: 0;
+    padding: 3px 0;
     background-color: #000000;
     z-index: 500;
     transition: all 0.3s linear;
@@ -281,7 +295,7 @@ a {
   }
 
   .Navbar_wapp>nav>ul {
-    padding: 0;
+    padding: 4px 0;
     width: 100%;
     background-color: #000000;
   }
@@ -291,6 +305,7 @@ a {
     align-items: center;
     justify-content: center;
     width: 90%;
+    margin-top: 0.3rem;
     margin-bottom: 0.1rem;
     background-color: #000000;
   }
