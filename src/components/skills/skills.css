@@ -11,7 +11,7 @@
 /* img */
 
 .work_content>.work_img {
-    width: 50%;
+    width: 45%;
     height: 500px;
     display: flex;
     align-items: center;
@@ -22,31 +22,34 @@
 .work_content>.work_img>img {
     width: 80%;
     height: 70%;
+    min-width: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 /* skills_container */
 
 .work_content>.skills_container {
-    width: 50%;
-    height: 500px;
+    width: 55%;
+    height: 370px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .work_content>.skills_container>.skill-bars {
-    padding: 25px 30px;
-    width: 600px;
+    padding: 25px 28px;
+    width: 90%; 
+    height: 100%;
     background: #fff;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
 }
 
 .work_content>.skills_container>.skill-bars>.bar {
-    margin: 20px 0;
+    margin: 17px 0;
 }
 
 .work_content>.skills_container>.skill-bars>.bar:first-child {
@@ -59,7 +62,7 @@
 
 .work_content>.skills_container>.skill-bars>.bar>.info>span {
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
     opacity: 0;
     animation: showText 0.5s 1s linear forwards;
 }
@@ -71,7 +74,7 @@
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line {
-    height: 10px;
+    height: 5px;
     width: 100%;
     background: #f0f0f0;
     position: relative;
@@ -100,11 +103,11 @@
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.html>span {
-    width: 90%;
+    width: 94%;
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.css>span {
-    width: 80%;
+    width: 87%;
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.javascript>span {
@@ -117,6 +120,10 @@
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.mysql>span {
     width: 50%;
+}
+
+.work_content>.skills_container>.skill-bars>.bar>.progress-line.java>span {
+    width: 40%;
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line>span::before {
@@ -155,11 +162,11 @@
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.html>span::after {
-    content: "90%";
+    content: "94%";
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.css>span::after {
-    content: "80%";
+    content: "87%";
 }
 
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.javascript>span::after {
@@ -173,12 +180,15 @@
 .work_content>.skills_container>.skill-bars>.bar>.progress-line.mysql>span::after {
     content: "50%";
 }
+.work_content>.skills_container>.skill-bars>.bar>.progress-line.java>span::after{
+    content: "40%";
+}
 
 /* 600px */
 @media (max-width:600px) {
     .work_content {
         /* width: 100%; */
-        width:600px ;
+        width: 600px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -201,6 +211,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .work_content>.skills_container {
         width: 100%;
         display: flex;

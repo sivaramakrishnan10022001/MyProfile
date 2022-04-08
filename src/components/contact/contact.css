@@ -43,6 +43,12 @@
     letter-spacing: 0;
 }
 
+.contact_wapper>.contact_container>.contact_left>.email>span {
+    margin-left: 0.9rem;
+    font-size: 0.7rem;
+}
+
+
 .contact_wapper>.contact_container>.contact_left>.phone {
     display: flex;
     align-items: center;
@@ -127,7 +133,6 @@
         height: 5rem;
         padding: 0 0.5rem;
         color: gray;
-
     }
 
     .contact_wapper>.contact_container>.contact_left {
@@ -142,14 +147,15 @@
         display: flex;
         align-items: center;
     }
-    .contact_wapper>.contact_container>.contact_left>.email>p{
+
+    .contact_wapper>.contact_container>.contact_left>.email>p {
         color: rgb(49, 48, 48);
         font-size: 0.7rem;
         font-weight: 500;
     }
 
     .contact_wapper>.contact_container>.contact_left>.email>span {
-        margin-left: 1.2rem;
+        margin-left: 1.3rem;
         font-size: 0.4rem;
     }
 
@@ -158,10 +164,11 @@
         color: rgb(49, 48, 48);
     }
 
-    .contact_wapper>.contact_container>.contact_left>.phone{
+    .contact_wapper>.contact_container>.contact_left>.phone {
         display: flex;
         align-items: center;
     }
+
     .contact_wapper>.contact_container>.contact_left>.phone>p {
         font-size: 0.7rem;
         user-select: none;
@@ -170,7 +177,7 @@
         padding-right: 0.5rem;
     }
 
-    
+
     .contact_wapper>.contact_container>.contact_left>.phone>h5 {
         font-size: 0.5rem;
         margin-left: 0.3rem;
@@ -213,5 +220,31 @@
         height: 0.8rem;
         width: 0.8rem;
         margin-right: 0.5rem;
+    }
+}
+
+@media (max-width: 335px) {
+
+    .contact_wapper {
+        width: 100% !important;
+        height: 8rem;
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: #fff;
+        box-shadow: #43475545 0px 0px 0.25em, #5a7dbc0d 0px 0.25em 1em;
+    }
+
+    .contact_wapper>.contact_container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        height: 5rem;
+        padding: 0 0.5rem;
+        color: gray;
     }
 }

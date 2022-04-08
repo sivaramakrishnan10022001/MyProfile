@@ -7,6 +7,7 @@ class Login extends React.Component {
         this.state = {
             fields: {},
             errors: {},
+            type: "text"
         }
     }
     handleChange = (e) => {
@@ -118,11 +119,14 @@ class Login extends React.Component {
                         />
                         <div className="errorMsg">{this.state.errors.emailid}</div>
                         <input
-                            type="date"
+                            id="date"
+                            placeholder="Date of birth"
+                            type={this.state.type}
+                            onFocus={() => this.setState({ type: "date" })}
                             name="dateofbirth"
                             value={this.state.fields.dateofbirth}
                             onChange={(e) => this.handleChange(e)}
-                           
+
                         />
                         <div className="errorMsg">{this.state.errors.dateofbirth}</div>
                         <input

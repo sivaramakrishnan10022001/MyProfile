@@ -58,6 +58,13 @@ input::-webkit-calendar-picker-indicator {
     text-transform: capitalize;
 }
 
+.login_wapper > .login_container > form > #date::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-transform:initial;
+}
+
+
 .login_wapper > .login_container > form > .button{
     background-color: rgb(31, 147, 224);
     color: #ffffff;

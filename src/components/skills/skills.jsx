@@ -1,6 +1,6 @@
 import React from "react";
 import "./skills.css";
-import work from "../download/webpic.png";
+import work from "../download/webdevelop.jpg";
 
 class Skills extends React.Component {
     constructor(props) {
@@ -39,7 +39,7 @@ class Skills extends React.Component {
 
                         <div className="bar">
                             <div className="info">
-                                <span>javascript</span>
+                                <span>Javascript</span>
                             </div>
                             <div className="progress-line javascript">
                                 <span></span>
@@ -57,7 +57,7 @@ class Skills extends React.Component {
 
                         <div className="bar">
                             <div className="info">
-                                <span>c</span>
+                                <span>C</span>
                             </div>
                             <div className="progress-line mysql">
                                 <span></span>
@@ -66,9 +66,18 @@ class Skills extends React.Component {
 
                         <div className="bar">
                             <div className="info">
-                                <span>c++</span>
+                                <span>C++</span>
                             </div>
                             <div className="progress-line mysql">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div className="bar">
+                            <div className="info">
+                                <span>Java</span>
+                            </div>
+                            <div className="progress-line java">
                                 <span></span>
                             </div>
                         </div>
