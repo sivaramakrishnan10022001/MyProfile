@@ -9,7 +9,7 @@ class Contact extends React.Component {
 
                     <div className="contact_left">
                         <div className="email">
-                            <p>Email </p> <span>:</span><a href="#">  sivas0532252@gmail.com</a>
+                            <p>Email </p> <span>:</span><a href="#">sivas0532252@gmail.com</a>
                         </div>
                         <div className="phone">
                             <p>Phone </p>  :<h5>91- 8190851386</h5>

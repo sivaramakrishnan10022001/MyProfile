@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/navbar";
 import Header from "./components/header/header";
 import Skills from "./components/skills/skills";
 import Shopping from "./components/shopping/shopping";
@@ -11,7 +11,7 @@ import Contact from "./components/contact/contact";
 function App() {
   return (
     <div className="App">
-      <Navbar />     
+      <Navbar />    
       <Header />
       <Skills />
       <Shopping />
