@@ -1,10 +1,11 @@
 import React from "react";
-import "./contact.css"; 
+import "./contact.css";
+
 class Contact extends React.Component {
     render() {
         return (
             <div id="contact" className="contact_wapper">
-                
+
                 <div className="contact_container">
 
                     <div className="contact_left">

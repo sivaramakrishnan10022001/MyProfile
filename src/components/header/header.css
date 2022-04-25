@@ -117,8 +117,8 @@
 
 .header_right>.profile_bg_r {
   border-radius: 50%;
-  height: 20rem;
-  width: 20rem;
+  height: 16rem;
+  width: 16rem;
   display: flex;
   align-items: center;
   justify-content: center;

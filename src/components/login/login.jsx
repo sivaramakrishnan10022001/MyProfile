@@ -1,5 +1,6 @@
 import React from "react";
 import "./login.css";
+import {db} from "../../firebase";
 
 class Login extends React.Component {
     constructor(props) {
@@ -7,7 +8,8 @@ class Login extends React.Component {
         this.state = {
             fields: {},
             errors: {},
-            type: "text"
+            type: "text",
+            loading: false,
         }
     }
     handleChange = (e) => {
@@ -20,6 +22,29 @@ class Login extends React.Component {
     }
     submituserRegistrationForm = (e) => {
         e.preventDefault();
+        
+        // this.setState({
+        //     loading: true
+        // })
+        // db.collection('contacts').add({
+        //     Name: this.state.fields.username,
+        //     Email: this.state.fields.emailid,
+        //     DateofBirth: this.state.fields.dateofbirth,
+        //     MobileNo: this.state.errors.mobileno,
+        //     password: this.state.errors.password
+        // }).then(() => {
+        //     alert('submitted')
+        //     this.setState({
+        //         loading: false,
+        //     })
+        // }).catch((error) => {
+        //     alert(error.message);
+        //     this.setState({
+        //         loading: false,
+        //     })
+        // })
+
+
         console.log("submituserRegistrationForm")
         if (this.validateForm()) {
             let fields = {};
